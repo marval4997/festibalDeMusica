@@ -1,0 +1,32 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "proyecto con gulp, sass y html",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea",
+    "css": "gulp css",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marval4997/festibalDeMusica.git"
+  },
+  "keywords": [
+    "SASS",
+    "GULP"
+  ],
+  "author": "margarito valdez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marval4997/festibalDeMusica/issues"
+  },
+  "homepage": "https://github.com/marval4997/festibalDeMusica#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.60.0"
+  }
+}
